@@ -1,0 +1,92 @@
+* {
+    font-family: 'Roboto Mono', monospace;;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+body {
+    background-color: #292C33;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.student-entry {
+    width: 500px;
+    background-color: #393D47;
+    border-radius: 12px;
+    box-shadow: 2px 4px 6px 0px black;
+    text-align: center;
+    padding: 20px;
+}
+
+.student-entry h1 {
+    font-size: 30px;
+    padding: 7px 0;
+    color: #fff;
+}
+
+.inputs {
+    width: 100%;
+}
+.inputs input {
+    width: 95%;
+    height: 20px;
+    margin: 7px 0;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 0;
+}
+
+.buttonsDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#addStudent {
+    flex-basis: 35%;
+    padding: 10px;
+    margin: 10px;
+    background: #00feba;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#addStudent:hover {
+    background: #007a5a;
+}
+
+.buttonsDiv a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0;
+}
+
+.buttonsDiv a:hover {
+    color: #A9B5D4;
+}
+
+#student-info {
+    width: 500px;
+    background-color: beige;
+    border-radius: 12px;
+    box-shadow: 2px 4px 6px 0px black;
+    text-align: center;
+    padding: 20px;
+    height: 500px;
+}
+
+#student-info h1 {
+    color: #000;
+}
