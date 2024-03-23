@@ -2,7 +2,7 @@
     font-family: 'Roboto Mono', monospace;;
     margin: 0;
     padding: 0;
-    color: #000;
+    /* color: #000; */
 }
 
 body {
@@ -77,16 +77,43 @@ body {
     color: #A9B5D4;
 }
 
-#student-info {
+#student-info, #infoDiv {
     width: 500px;
-    background-color: beige;
+    background-color: #fff;
+    /* background-color: #8f5252; */
     border-radius: 12px;
     box-shadow: 2px 4px 6px 0px black;
     text-align: center;
     padding: 20px;
-    height: 500px;
+    height: fit-content;
 }
 
-#student-info h1 {
-    color: #000;
+
+#student-info button {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background: transparent;
+    color: black;
+    font-size: 25px;
+}
+
+#student-info button:hover {
+    color: #A9B5D4;
+    background-color: #754242;
+}
+
+#infoDiv {
+    color: black;
+}
+
+#infoDiv h1 {
+    font-size: 50px;
+}
+
+#infoDiv p {
+    font-size: 30px;
 }
